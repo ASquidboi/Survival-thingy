@@ -10,7 +10,7 @@ public static class Noise
 
         if (scale <= 0) {
             scale = 0.0001f;
-        }
+        } 
          for (int y = 0; y < mapHeight; y++) {
             for (int x = 0; x < mapWidth; x++) {
                  float sampleX = x / scale;
